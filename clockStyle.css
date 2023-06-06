@@ -1,7 +1,7 @@
 .clockContainer {
   margin: auto;
   background-color: #eb1c1c;
-  background: url(clock.png) no-repeat;
+  /* background: url(clock.png) no-repeat; */
   width: 40vw;
   height: 40vw;
   
@@ -40,4 +40,37 @@
   top: 6.5vw;
   left: 49.68vw;
   /* display: none; */
+}
+
+#twelve
+{
+  position: absolute;
+  font-size: small;
+  left: 40.5vw;
+  top: 0vw;
+  
+}
+
+#three
+{
+  position: absolute;
+  font-size: small;
+  left: 65.5vw;
+  top: 15vw;
+}
+
+#six
+{
+  position: absolute;
+  font-size: small;
+  left: 40.5vw;
+  top: 0vw;
+}
+
+#nine
+{
+  position: absolute;
+  font-size: small;
+  left: 30.5vw;
+  top: 15vw;
 }
